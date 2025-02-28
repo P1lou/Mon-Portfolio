@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" /> 
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Mon Portfolio</title>
+        <meta name="description" content="Ceci est mon portfolio étudiant"/> 
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
+        <link rel="stylesheet" href="styles/styles.css">
+    </head>
+
+    <body>
+
+        <header>
+            <div class="boxed">
+                <div class="flex aligncenter space-between">
+                    <button onclick="openMenu()" class="header-menu-mobile">
+                        <span class="material-icons">menu</span>
+                    </button>
+                    <a href="#" class="header-logo">
+                        <img src="img/portfolio.png"> 
+                    </a>
+                    <ul class="header-menu">
+                        <li><a href="#accueil">Accueil</a></li>
+                        <li><a href="#propos">A Propos</a></li>
+                        <li><a href="#competence">Compétence</a></li>
+                        <li><a href="#projet">Projets</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+
+        <div class="slider"> 
+            <img src="img/slider.png" class="slider-background"> 
+            <div class ="slider-content"> 
+                <h1 id="accueil">Pierre-Louis CATTEAU</h1>
+                <p> étudiant ingénieur en aérospatial</p>
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="boxed">
+                <div class="flex toColumn mCenter">
+                    <div clas="w40 wm100">
+                        <h2 id="propos"> A propos de moi </h2>
+                    </div>
+                    <div class="w60 wm100">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut suscipit lorem. Donec non sollicitudin ante. Fusce rhoncus dictum nisi non vehicula. Donec maximus varius congue. Donec vitae tristique felis. Suspendisse potenti. Duis felis erat, pellentesque sed orci in, lobortis hendrerit erat. Vestibulum metus enim, accumsan ut dolor in, volutpat viverra nunc. Morbi luctus, urna ac egestas posuere, lacus metus porttitor erat, et fermentum metus eros at metus. Nulla eu imperdiet dolor. Nullam iaculis varius commodo. Nullam egestas elit magna, nec dictum nisl scelerisque et. Morbi vel eleifend est.</p>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+        <div class="section dark">
+            <div class="boxed text-center">
+                <h2 id="competence"> Mes compétences </h2>
+                <div class="flex toColumn gap20">
+                    <div class="w25 wm100 skill">
+                        <img src="img/cpp.png">
+                        <h3> C++</h3>
+                    </div>
+                    <div class="w25 wm100 skill">
+                        <img src="img/office.png">
+                        <h3> Suite Office</h3>
+                    </div>
+                    <div class="w25 wm100 skill">
+                        <img src="img/3D.jpg">
+                        <h3> 3D Expérience</h3>
+                    </div>
+                    <div class="w25 wm100 skill">
+                        <img src="img/matlab.png">
+                        <h3> Matlab</h3>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="section">
+            <div class="boxed text-center">
+                <h2 id="projet"> Mes Projets </h2> 
+                <div class="flex wrap gap20 space-between">
+                    <div class="w32 wm45 realisation">
+                        <a href="/">
+                            <img src="img/creation.jpg"> 
+                            <h3>Projet1</h3>
+                        </a>                        
+                    </div>
+                    <div class="w32 wm45 realisation">
+                        <a href="/">
+                            <img src="img/creation.jpg">
+                            <h3>Projet1</h3>   
+                        </a>                        
+                    </div>
+                    <div class="w32 wm45 realisation">
+                        <a href="/">
+                            <img src="img/creation.jpg">
+                            <h3>Projet1</h3>   
+                        </a>                        
+                    </div>
+                    <div class="w32 wm45 realisation">
+                        <a href="/">
+                            <img src="img/creation.jpg">
+                            <h3>Projet1</h3>   
+                        </a>                        
+                    </div>
+                    <div class="w32 wm45 realisation">
+                        <a href="/">
+                            <img src="img/creation.jpg">
+                            <h3>Projet1</h3>   
+                        </a>                        
+                    </div>
+                    <div class="w32 wm45 realisation">
+                        <a href="/">
+                            <img src="img/creation.jpg">
+                            <h3>Projet1</h3>   
+                        </a>                        
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        <div class="section dark">
+            <div class="boxed text-center">
+                <h2 id="contact"> Contactez-moi </h2>
+                <div class="flex toColumn space-between  mgap20">
+                    <div class="w32 wm100 contact">
+                        <span class="material-icons icon">mail</span>
+                        <span class="label">E-mail</span>
+                        <span class="value">pl.catteau@outlook.fr</span>
+                    </div>
+                    <div class="w32 wm100 contact">
+                        <span class="material-icons icon">work_history</span>
+                        <span class="label">LinkedIn</span>
+                        <span class="value">Pierre-Louis Catteau</span>
+                    </div>
+                    <div class="w32 wm100 contact">
+                        <span class="material-icons icon">call</span>
+                        <span class="label">Numéro de téléphone</span>
+                        <span class="value">07.81.94.01.40</span>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </body>
+
+    <script src="js/app.js"></script>
+</html>
